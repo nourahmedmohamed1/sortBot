@@ -125,29 +125,25 @@ sortBot/
 
 ---
 
-<div align="center">
 ## 👥 Meet the Team
-
+<div align="center">
 <table>
   <tr>
     <td align="center" width="160">
       <img src="https://api.dicebear.com/9.x/initials/svg?seed=MA&backgroundColor=0284c7&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 1"/><br/>
-      <strong>Member A</strong><br/>
-      <sub>🧠 The AI Brain</sub><br/><br/>
+      <strong>Member A</strong><br/><br/>
       <a href="https://linkedin.com/in/member-a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/member-a"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
     <td align="center" width="160">
       <img src="https://api.dicebear.com/9.x/initials/svg?seed=MB&backgroundColor=7c3aed&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 2"/><br/>
-      <strong>Mostafa Mohamed</strong><br/>
-      <sub>🚀 [Add Role]</sub><br/><br/>
+      <strong>Mostafa Mohamed</strong><br/><br/>
       <a href="https://linkedin.com/in/member-b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/member-b"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
     <td align="center" width="160">
       <img src="https://api.dicebear.com/9.x/initials/svg?seed=MC&backgroundColor=059669&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 3"/><br/>
-      <strong>Yahya Ismail</strong><br/>
-      <sub>🎮 Unity Developer</sub><br/><br/>
+      <strong>Yahya Ismail</strong><br/><br/>
       <a href="https://linkedin.com/in/member-c"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/member-c"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
@@ -155,22 +151,19 @@ sortBot/
   <tr>
     <td align="center" width="160">
       <img src="https://api.dicebear.com/9.x/initials/svg?seed=MD&backgroundColor=dc2626&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 4"/><br/>
-      <strong>Member D</strong><br/>
-      <sub>🎨 3D Artist</sub><br/><br/>
+      <strong>Habiba Ahmed</strong><br/><br/>
       <a href="https://linkedin.com/in/member-d"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/member-d"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
     <td align="center" width="160">
       <img src="https://api.dicebear.com/9.x/initials/svg?seed=ME&backgroundColor=ea580c&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 5"/><br/>
-      <strong>Member E</strong><br/>
-      <sub>📋 Project Manager</sub><br/><br/>
+      <strong>Sama Mohamed</strong><br/><br/>
       <a href="https://linkedin.com/in/member-e"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/member-e"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
     <td align="center" width="160">
       <img src="https://api.dicebear.com/9.x/initials/svg?seed=MF&backgroundColor=ca8a04&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 6"/><br/>
-      <strong>Member F</strong><br/>
-      <sub>🧪 QA & Testing</sub><br/><br/>
+      <strong>Rana Hisham</strong><br/><br/>
       <a href="https://linkedin.com/in/member-f"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/member-f"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
@@ -178,8 +171,7 @@ sortBot/
   <tr>
     <td align="center" width="160" colspan="3">
       <img src="https://api.dicebear.com/9.x/initials/svg?seed=MG&backgroundColor=ec4899&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 7"/><br/>
-      <strong>Nour Ahmed</strong><br/>
-      <sub>✨ [Add Role]</sub><br/><br/>
+      <strong>Nour Ahmed</strong><br/><br/>
       <a href="https://www.linkedin.com/in/nn-anwar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/nourahmedmohamed1"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
@@ -187,10 +179,4 @@ sortBot/
 </table>
 
 ---
-
-<p>
-  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red?style=for-the-badge" alt="Made with Love"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"/>
-</p>
-
 </div>
