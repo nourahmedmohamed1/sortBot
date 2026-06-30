@@ -1,0 +1,7 @@
+.vscode/
+__pycache__/
+*.pyc
+test_image.png
+fake_image.png
+generate_pdf.py
+SortBot_Team_Summary.pdf
