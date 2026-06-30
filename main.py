@@ -1,6 +1,6 @@
 """
 ===========================================================================
-  SortBot — Member 2: The Messenger
+  SortBot - Member 2: The Messenger
   FastAPI REST server bridging Unity <-> AI Object Detection
 ===========================================================================
 
@@ -11,6 +11,7 @@ This server exposes a POST /detect endpoint that:
 
 Model: YOLOv11n trained on waste classes (Cardboard, Other, Metal, Plastic)
 ===========================================================================
+"""
 
 import io
 import logging
@@ -35,7 +36,7 @@ logger = logging.getLogger("sortbot")
 #  FastAPI App
 # ---------------------------------------------------------------------------
 app = FastAPI(
-    title="SortBot – Waste Detection API",
+    title="SortBot - Waste Detection API",
     description=(
         "A REST bridge between the Unity simulation and the AI object-detection "
         "model. Uses a YOLOv11n model to classify waste into Cardboard, Other, Metal, and Plastic."
@@ -72,7 +73,7 @@ class CenterCoordinates(BaseModel):
 class DetectionResult(BaseModel):
     """Single object detection result."""
     waste_class: str            # e.g. "plastic bottle" or "Unknown"
-    confidence: float           # 0.0 – 1.0
+    confidence: float           # 0.0 - 1.0
     center_coordinates: CenterCoordinates
 
 
@@ -120,8 +121,8 @@ def detect_objects(image: Image.Image) -> Optional[dict]:
     return {
         "class": waste_class,
         "confidence": max_conf,
-        "x": center_x,
-        "y": center_y
+        "x": int(center_x),
+        "y": int(center_y)
     }
 
 
@@ -138,7 +139,7 @@ def validate_image(file_bytes: bytes) -> Image.Image:
     HTTPException(400) if the bytes are not a valid image.
     """
     try:
-        # First pass — verify structural integrity
+        # First pass - verify structural integrity
         img_check = Image.open(io.BytesIO(file_bytes))
         img_check.verify()  # raises if corrupt
 
@@ -181,10 +182,10 @@ async def detect(file: UploadFile = File(..., description="Image file (JPEG / PN
     the classification result as JSON.
 
     **Response fields:**
-    - `success` – always `true` on 2xx
-    - `detection` – object with `waste_class`, `confidence`,
+    - `success` - always `true` on 2xx
+    - `detection` - object with `waste_class`, `confidence`,
       `center_coordinates` (or `null` if nothing detected)
-    - `message` – human-readable note when detection is null
+    - `message` - human-readable note when detection is null
     """
 
     # --- 1. Read uploaded bytes -----------------------------------------
@@ -217,7 +218,7 @@ async def detect(file: UploadFile = File(..., description="Image file (JPEG / PN
 
     if confidence < CONFIDENCE_THRESHOLD:
         logger.info(
-            "Confidence %.2f is below threshold %.2f → class set to 'Unknown'.",
+            "Confidence %.2f is below threshold %.2f -> class set to 'Unknown'.",
             confidence, CONFIDENCE_THRESHOLD,
         )
         waste_class = "Unknown"
