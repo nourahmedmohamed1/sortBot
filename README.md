@@ -175,6 +175,16 @@ sortBot/
       <a href="https://linkedin.com/in/member-f"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
       <a href="https://github.com/member-f"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
     </td>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="160" colspan="3">
+      <img src="https://api.dicebear.com/9.x/initials/svg?seed=MG&backgroundColor=ec4899&textColor=ffffff&fontSize=40" width="80" height="80" style="border-radius:50%;" alt="Member 7"/><br/>
+      <strong>Member G</strong><br/>
+      <sub>⚙️ Systems Engineer</sub><br/><br/>
+      <a href="https://linkedin.com/in/member-g"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="22"/></a>
+      <a href="https://github.com/member-g"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="22"/></a>
+    </td>
   </tr>
 </table>
 
